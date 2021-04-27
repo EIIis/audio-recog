@@ -18,4 +18,4 @@
 * Homepage needs to be reworked to beautify it a tad bit
 * Large audio files are ***NOT*** supported. Will fail to do anything  
   
-* Any other problems? Feel to do a pull request and/or email me at ellisalcantara@gmail.com
+* Any other problems? Feel to do issue an issue and/or email me at ellisalcantara@gmail.com
