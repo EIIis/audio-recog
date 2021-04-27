@@ -2,15 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Speech Recog</title>
+    <title>File 2 Transcript</title>
+
 </head>
 <body>
 <div id ="speechContainer">
-    <h1>Upload File</h1>
+    <h1>Upload a .wav file to transcribe</h1>
     <form method="post" enctype="multipart/form-data">
         <input type="file" name="file" />
         <br>
         <input type="submit" value="Transcribe" />
     </form>
+    {% if transcript != "" %} <!-- Logic Statement to check if a file has gone through -->
+    <div id="speechTranscriptContainer">
+        <h1>Transcript</h1>
+        <p> {{transcript}}</p>
+    </div>
+    {% endif %}
 </body>
 </html>
