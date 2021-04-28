@@ -1,6 +1,6 @@
-# Audio Recoginiton Web Application #  
+# Audio Recognition Web Application #  
    
-## Dependecies to run the it yourself ##
+## Dependecies to run the program yourself ##
 
 |Framework/API     |PIP Commands                                             
 |------------------|-------------------------------
@@ -11,7 +11,7 @@
 
 1. Go to directory containing app.py through terminal
 2. Type the following command `python3 app.py`
-3. Go to your browser and in the url search fo `localhost:5000`  
+3. Go to your browser and in the url space, search for `localhost:5000`  
 
 ## Current Issues ##
 * ***Only Takes In .wav Files!***
